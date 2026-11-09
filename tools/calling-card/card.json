@@ -1,0 +1,43 @@
+{
+  "siteUrl": "https://thebrightsmile.github.io/",
+  "siteLabel": "thebrightsmile.github.io",
+  "logoImage": "src/assets/logo-512.png",
+  "logoBadge": false,
+  "fonts": {
+    "display": "@fontsource-variable/playfair-display/files/playfair-display-latin-wght-normal.woff2",
+    "displayItalic": "@fontsource-variable/playfair-display/files/playfair-display-latin-wght-italic.woff2",
+    "body": "@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2"
+  },
+  "doctor": {
+    "name": "Ian Paul Tagaro",
+    "designation": "DMD",
+    "role": "Doctor of Dental Medicine · General Dentist"
+  },
+  "clinic": {
+    "name": "The Bright Smile Philippines Dental Clinic",
+    "shortName": "The Bright Smile",
+    "shortNameLines": [
+      "The Bright",
+      "Smile"
+    ],
+    "subtitle": "Philippines Dental Clinic",
+    "address": "Seoul, Korea",
+    "established": "Est. 2018",
+    "tagline": "Healthy smiles,",
+    "taglineAccent": "brighter futures."
+  },
+  "contact": {
+    "phone": "0908 765 4321",
+    "email": "thebrightsmile@clinic.com"
+  },
+  "colors": {
+    "brownDark": "#06101f",
+    "brown": "#0b1a33",
+    "brownMid": "#163a6b",
+    "brownLight": "#b8862b",
+    "pink": "#e5be5e",
+    "pinkDeep": "#d4a53a",
+    "pinkPale": "#fbf0cf",
+    "cream": "#f7f6f2"
+  }
+}
