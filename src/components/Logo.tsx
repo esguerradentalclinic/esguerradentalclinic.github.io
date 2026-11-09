@@ -10,7 +10,7 @@ interface LogoMarkProps {
   alt?: string
 }
 
-/** The clinic's tooth-and-gold-ring emblem, taken from the client's artwork. */
+/** The clinic's monogram-and-tooth logo, taken from the client's artwork. */
 export function LogoMark({ className, large = false, alt = '' }: LogoMarkProps) {
   const size = large ? 512 : 192
   return (
@@ -46,8 +46,8 @@ export function Brand({ onClick, href = '#home' }: BrandProps) {
     >
       <LogoMark className="brand__mark" />
       <span className="brand__text">
-        <span className="brand__name">The Bright Smile</span>
-        <span className="brand__sub">Philippines Dental Clinic</span>
+        <span className="brand__name">Esguerra</span>
+        <span className="brand__sub">Dental Clinic</span>
       </span>
     </a>
   )

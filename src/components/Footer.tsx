@@ -8,14 +8,14 @@ export function Footer() {
   const year = new Date().getFullYear()
   return (
     <footer className="footer">
+      <div className="footer__wave" aria-hidden="true" />
       <div className="container">
-        <p className="footer__script">{CLINIC.motto}</p>
         <div className="footer__grid">
           <div>
             <Brand onClick={() => scrollToSection('home')} />
             <p className="footer__blurb">
-              {CLINIC.tagline} General dentistry and smile brightening in {CLINIC.address}, led by
-              Dr. {CLINIC.doctor.fullName}, {CLINIC.doctor.title}.
+              <strong>{CLINIC.tagline}</strong> General dentistry for families in {CLINIC.address},
+              led by Dr. {CLINIC.doctor.fullName}, {CLINIC.doctor.title}.
             </p>
           </div>
 

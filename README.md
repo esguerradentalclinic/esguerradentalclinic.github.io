@@ -1,7 +1,7 @@
-# The Bright Smile Philippines Dental Clinic — digital calling card
+# Esguerra Dental Clinic — digital calling card
 
-A single-page, scrollable web app for **The Bright Smile Philippines Dental Clinic**
-(Dr. Ian Paul Tagaro, DMD). It presents the clinic's availability, story,
+A single-page, scrollable web app for **Esguerra Dental Clinic**
+(Dr. Johanna B. Esguerra, DMD). It presents the clinic's availability, story,
 services with peso pricing, and an interactive appointment booker.
 
 > **Demo status.** Most content (prices, founding date, ratings, patient
@@ -18,8 +18,8 @@ services with peso pricing, and an interactive appointment booker.
 | **Services** | Filterable grid of treatments with prices in Philippine pesos (₱) and typical duration. "Book" jumps straight into the booking flow with that service pre-selected. |
 | **Appointment** | Three-step booker: service → calendar + time slots (closed days, past dates, lunch break and taken slots are blocked) → patient details with validation. Shows a reference code and lists upcoming bookings with cancel. |
 
-Brand: dark theme, navy (`#0b1a33`), gold (`#d4a53a`), white and silver.
-Fonts: Playfair Display (display), Manrope (body) and Dancing Script (tagline), self-hosted.
+Brand: lavender to royal violet (`#6a2fb5`), deep indigo (`#2a0f5c`), gold (`#d4a63a`) and white.
+Fonts: Marcellus (display) and Poppins (body), self-hosted.
 
 ## Stack
 

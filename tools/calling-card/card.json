@@ -1,43 +1,43 @@
 {
-  "siteUrl": "https://thebrightsmile.github.io/",
-  "siteLabel": "thebrightsmile.github.io",
+  "siteUrl": "https://esguerradentalclinic.github.io/",
+  "siteLabel": "esguerradentalclinic.github.io",
   "logoImage": "src/assets/logo-512.png",
   "logoBadge": false,
   "fonts": {
-    "display": "@fontsource-variable/playfair-display/files/playfair-display-latin-wght-normal.woff2",
-    "displayItalic": "@fontsource-variable/playfair-display/files/playfair-display-latin-wght-italic.woff2",
-    "body": "@fontsource-variable/manrope/files/manrope-latin-wght-normal.woff2"
+    "display": "@fontsource/marcellus/files/marcellus-latin-400-normal.woff2",
+    "displayItalic": "@fontsource/marcellus/files/marcellus-latin-400-normal.woff2",
+    "body": "@fontsource/poppins/files/poppins-latin-500-normal.woff2"
   },
   "doctor": {
-    "name": "Ian Paul Tagaro",
+    "name": "Johanna B. Esguerra",
     "designation": "DMD",
     "role": "Doctor of Dental Medicine · General Dentist"
   },
   "clinic": {
-    "name": "The Bright Smile Philippines Dental Clinic",
-    "shortName": "The Bright Smile",
+    "name": "Esguerra Dental Clinic",
+    "shortName": "Esguerra",
     "shortNameLines": [
-      "The Bright",
-      "Smile"
+      "Esguerra",
+      "Dental Clinic"
     ],
-    "subtitle": "Philippines Dental Clinic",
-    "address": "Seoul, Korea",
-    "established": "Est. 2018",
-    "tagline": "Healthy smiles,",
-    "taglineAccent": "brighter futures."
+    "subtitle": "Prevent · Restore · Smile",
+    "address": "Bangkok, Thailand",
+    "established": "Est. 2019",
+    "tagline": "Prevent. Restore.",
+    "taglineAccent": "Smile."
   },
   "contact": {
     "phone": "0908 765 4321",
-    "email": "thebrightsmile@clinic.com"
+    "email": "esguerradental@clinic.com"
   },
   "colors": {
-    "brownDark": "#06101f",
-    "brown": "#0b1a33",
-    "brownMid": "#163a6b",
+    "brownDark": "#2a0f5c",
+    "brown": "#4b1d8c",
+    "brownMid": "#6a2fb5",
     "brownLight": "#b8862b",
-    "pink": "#e5be5e",
-    "pinkDeep": "#d4a53a",
-    "pinkPale": "#fbf0cf",
-    "cream": "#f7f6f2"
+    "pink": "#e8c25a",
+    "pinkDeep": "#d4a63a",
+    "pinkPale": "#ece3f7",
+    "cream": "#f7f3fc"
   }
 }

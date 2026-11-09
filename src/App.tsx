@@ -40,7 +40,6 @@ export default function App() {
 
   return (
     <>
-      <div className="marble" aria-hidden="true" />
       <a className="skip-link" href="#main">
         Skip to content
       </a>

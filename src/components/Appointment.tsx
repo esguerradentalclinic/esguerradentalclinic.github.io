@@ -323,9 +323,9 @@ export function Appointment({ request }: AppointmentProps) {
       <div className="container">
         <Reveal>
           <div className="section__head">
-            <span className="eyebrow">Reserve a visit</span>
+            <span className="eyebrow">Appointments</span>
             <h2 id="appointment-title" className="h2">
-              Reserve your <span className="italic-accent">brightest</span> visit
+              Book your visit <span className="italic-accent">in three steps</span>
             </h2>
             <p className="lede">
               Choose a treatment, pick an open slot and leave your details. We confirm by text or
@@ -405,7 +405,7 @@ export function Appointment({ request }: AppointmentProps) {
                     <span />
                     <button
                       type="button"
-                      className="btn btn--gold"
+                      className="btn btn--violet"
                       disabled={!service}
                       onClick={() => setStep(2)}
                     >
@@ -529,7 +529,7 @@ export function Appointment({ request }: AppointmentProps) {
                     </button>
                     <button
                       type="button"
-                      className="btn btn--gold"
+                      className="btn btn--violet"
                       disabled={!date || slotStart === null}
                       onClick={() => setStep(3)}
                     >
@@ -694,8 +694,8 @@ export function Appointment({ request }: AppointmentProps) {
                     <button type="button" className="btn btn--ghost" onClick={() => setStep(2)}>
                       Back
                     </button>
-                    <button type="submit" className="btn btn--gold">
-                      Confirm reservation
+                    <button type="submit" className="btn btn--violet">
+                      Confirm appointment
                       <CheckIcon className="btn__icon" />
                     </button>
                   </div>
@@ -749,7 +749,7 @@ export function Appointment({ request }: AppointmentProps) {
                   ) : null}
 
                   <div className="panel__actions" style={{ justifyContent: 'center' }}>
-                    <button type="button" className="btn btn--gold" onClick={resetFlow}>
+                    <button type="button" className="btn btn--violet" onClick={resetFlow}>
                       Book another appointment
                     </button>
                   </div>
@@ -823,7 +823,7 @@ export function Appointment({ request }: AppointmentProps) {
         <Reveal>
           <div className="mine">
             <div className="mine__head">
-              <h3 className="h3">Your upcoming visits</h3>
+              <h3 className="h3">Your upcoming appointments</h3>
             </div>
             {upcoming.length === 0 ? (
               <div className="slots__empty">No upcoming appointments yet. Your bookings will appear here.</div>
